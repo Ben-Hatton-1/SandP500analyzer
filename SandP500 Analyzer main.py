@@ -2,7 +2,7 @@ import yfinance as yf
 import pandas as pd
 
 # Read tickers from a CSV file
-df = pd.read_csv('/Users/benhatton/Desktop/S&P500_tickers.csv')
+df = pd.read_csv('#path to csvfile')
 tickers_list = df['Symbol'].tolist()  # Assuming 'A' is the column name
 
 # Threshold for percentage change
